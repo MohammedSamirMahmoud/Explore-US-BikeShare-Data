@@ -265,8 +265,9 @@ def user_stats(df,city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-    
-
+    print('$'*40)
+    print('\nCongratulations on Finishing your Data Analysis on US-BikeShare Data\n')
+    print('$'*40)
 
 
 
