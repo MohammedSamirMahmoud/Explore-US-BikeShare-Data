@@ -176,12 +176,12 @@ def time_stats(df,city,month,day):
     most_common_hour = df['hour'].mode()[0]
     print('The most common hour during month: {} which is month {} - day: {} - is hour number: {} \n'.format(most_common_month,month_name,most_common_day,most_common_hour))
 
-    print('#'*40)
+    print('%'*40)
     print('NEXT Results will be analyzed based on Selected filters which are: \n')
     print('City: ',city)
     print('\nMonth Name: ',month)
     print('\nDay Name: ',day)
-    print('#'*40)
+    print('%'*40)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -265,8 +265,9 @@ def user_stats(df,city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-    
-
+    print('$'*40)
+    print('\nCongratulations on Finishing your Data Analysis on US-BikeShare Data\n')
+    print('$'*40)
 
 
 
